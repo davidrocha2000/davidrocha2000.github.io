@@ -25,7 +25,7 @@
 
 body {
         font-family:var(--main-font);
-        font-weight:400;
+        font-weight:900;
         margin:0;
         padding:0;
         box-sizing: border-box;
@@ -137,6 +137,7 @@ a {
 .search-icon {
     width:inherit;
     height:inherit;
+    
 }
 
 .search-bar:focus-within .search-box::placeholder {
