@@ -84,6 +84,7 @@ a {
 .top-bar {
     display:grid;
     align-items: center;
+    justify-content: center;
     padding:0 1%;
 }
 
@@ -155,8 +156,16 @@ a {
 
 .logo > a > img {
     width:100%;
+    
 }
+.page-header {
+    display: flex;
+    flex-direction: column;
+   
 
+  
+    
+}
 .page-sub-header {
     text-align:center;
     color:#333;
@@ -378,12 +387,12 @@ input[type=reset]:hover {
 
     .gallery-item-1,
     .gallery-item-2 {
-    margin-top:-15%;
+    margin-top:-75%;
     }
 
     .gallery-item-3,
     .gallery-item-4 {
-        margin-top:-61%;
+        margin-top:-75%;
     }
 
     .footer-nav a {
@@ -585,7 +594,7 @@ input[type=reset]:hover {
     }
     
     .logo {
-        width:60%;
+        width: 25%;
     }
     
     
